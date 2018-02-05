@@ -24,7 +24,6 @@
             </intent-filter>
         </receiver>
 
-        <!-- android:theme="@android:style/Theme.Dialog" -->
         <activity android:name=".welcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

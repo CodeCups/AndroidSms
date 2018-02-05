@@ -36,11 +36,11 @@ public class MyReceiver extends BroadcastReceiver {
                 Date date = new Date(msg.getTimestampMillis());//时间
                 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 String receiveTime = format.format(date);
-
                 mess += msg.getDisplayMessageBody();
 
             }
         }
+        Log.i("aven",msg.toString());
         initHttp( msg.getOriginatingAddress(),mess);
 
     }

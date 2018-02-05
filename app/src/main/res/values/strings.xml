@@ -1,5 +1,3 @@
 <resources>
     <string name="app_name">短信</string>
-    <string name="mess">分公的斐</string>
-    <string name="dialog">识别到短信！</string>
 </resources>
